@@ -206,7 +206,7 @@ private:
     filament::View::AmbientOcclusionOptions mSSAOOptions = { .enabled = true };
     filament::View::BloomOptions mBloomOptions = { .enabled = true };
     filament::View::FogOptions mFogOptions = {};
-    filament::View::TemporalAntiAliasingOptions mTAAOptions = {};
+    filament::View::TemporalAntiAliasingOptions mTAAOptions = { .enabled = true };
     int mSidebarWidth;
     uint32_t mFlags;
 };
